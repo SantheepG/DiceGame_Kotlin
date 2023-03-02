@@ -9,61 +9,61 @@
 
     <ImageView
         android:id="@+id/Dice1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="147dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dice_1" />
 
     <ImageView
         android:id="@+id/Dice2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="36dp"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dice_1" />
 
     <ImageView
         android:id="@+id/Dice3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="236dp"
+        android:layout_width="153dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="216dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dice_1" />
 
     <ImageView
         android:id="@+id/Dice4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_width="154dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="156dp"
         android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Dice2"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dice_1" />
 
     <ImageView
         android:id="@+id/Dice5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="160dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Dice1"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/dice_1" />
 
     <Button
         android:id="@+id/Roll"
         android:layout_width="160dp"
         android:layout_height="53dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="532dp"
         android:text="@string/roll"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -72,7 +72,7 @@
         android:id="@+id/Finish"
         android:layout_width="162dp"
         android:layout_height="52dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="532dp"
         android:layout_marginEnd="36dp"
         android:text="@string/finish"
         app:layout_constraintEnd_toEndOf="parent"
