@@ -4,4 +4,5 @@
     <string name="roll">Roll</string>
     <string name="finish">Finish</string>
     <string name="score">Score :</string>
+    <string name="dice_game">Dice Game</string>
 </resources>
